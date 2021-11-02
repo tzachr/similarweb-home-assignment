@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { useMeasurePosition } from '../../hooks/useMeasurePosition';
 
-
 export default function VideoItem({video, updateOrder, updatePosition, index, onPlaylistReorder}) {
     const [isDragged, setIsDragged] = useState(false);
     const itemRef = useMeasurePosition(pos => updatePosition(index, pos));

@@ -1,6 +1,4 @@
 import YouTube from "react-youtube";
-import ReactPlayer from 'react-player'
-import { useState } from 'react';
 
 export default function YouTubePlayer({isShowPlayer, nowPlaying, playNext}) {
     const opts = {

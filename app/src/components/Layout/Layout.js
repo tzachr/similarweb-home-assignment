@@ -32,7 +32,7 @@ export default function Layout() {
                     <VideoInput className="w-full" />
                     <VideosList className="w-full h-3/4" />
                 </div>
-                <YouTubePlayer showPlayer={isShowPlayer} nowPlaying={nowPlaying} playNext={playNext} />
+                <YouTubePlayer isShowPlayer={isShowPlayer} nowPlaying={nowPlaying} playNext={playNext} />
             </div>
         </div>
     )
